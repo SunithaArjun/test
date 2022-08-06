@@ -25,4 +25,4 @@ def wlDeployUndeploy(username, password, adminURL, appName, location, targets):
     except Exception, ex:
         print ex.toString()
         cancelEdit('y')
-wlDeployUndeploy("weblogic","weblogic1","t3://192.168.0.103:7001","benefits","/u01/app/oracle/apr2022/jenkins/gittest/test,"AdminServer")
+wlDeployUndeploy("weblogic","weblogic1","t3://192.168.0.103:7001","test","/u01/app/oracle/apr2022/jenkins/gittest/test,"AdminServer")
